@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+    xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf">
+  <owl:Ontology rdf:about=""/>
+  <rdfs:Class rdf:ID="Hobie16">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:ID="Multihull"/>
+    </rdfs:subClassOf>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Dragon">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:ID="Yacht"/>
+    </rdfs:subClassOf>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Dinghy">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:ID="SailingBoat"/>
+    </rdfs:subClassOf>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="#Multihull">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#SailingBoat"/>
+    </rdfs:subClassOf>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Hobie-Tiger">
+    <rdfs:subClassOf rdf:resource="#Multihull"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Soto">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#Yacht"/>
+    </rdfs:subClassOf>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Boat"/>
+  <rdfs:Class rdf:about="#Yacht">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#SailingBoat"/>
+    </rdfs:subClassOf>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Optimist">
+    <rdfs:subClassOf rdf:resource="#Dinghy"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Mirror">
+    <rdfs:subClassOf rdf:resource="#Dinghy"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="#SailingBoat">
+    <rdfs:subClassOf rdf:resource="#Boat"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Tug">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:ID="MotorBoat"/>
+    </rdfs:subClassOf>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Ferry">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#MotorBoat"/>
+    </rdfs:subClassOf>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Laser">
+    <rdfs:subClassOf rdf:resource="#Dinghy"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Cutter">
+    <rdfs:subClassOf rdf:resource="#Yacht"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Schooner">
+    <rdfs:subClassOf rdf:resource="#Yacht"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Hobie-Dragoon">
+    <rdfs:subClassOf rdf:resource="#Multihull"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="MotorYacht">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#MotorBoat"/>
+    </rdfs:subClassOf>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Trawler">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#MotorBoat"/>
+    </rdfs:subClassOf>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="JetBoat">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#MotorBoat"/>
+    </rdfs:subClassOf>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Tornado">
+    <rdfs:subClassOf rdf:resource="#Multihull"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="J-22">
+    <rdfs:subClassOf rdf:resource="#Yacht"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="CabinCruiser">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="#MotorBoat"/>
+    </rdfs:subClassOf>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Hobie-Wildcat">
+    <rdfs:subClassOf rdf:resource="#Multihull"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="#MotorBoat">
+    <rdfs:subClassOf rdf:resource="#Boat"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Sloop">
+    <rdfs:subClassOf rdf:resource="#Yacht"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:ID="Topcat">
+    <rdfs:subClassOf rdf:resource="#Multihull"/>
+  </rdfs:Class>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.5, Build 663)  http://protege.stanford.edu -->
