@@ -1,0 +1,1292 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf">
+    <Prefix name="" IRI="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="xsp" IRI="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="swrl" IRI="http://www.w3.org/2003/11/swrl#"/>
+    <Prefix name="swrlb" IRI="http://www.w3.org/2003/11/swrlb#"/>
+    <Prefix name="protege" IRI="http://protege.stanford.edu/plugins/owl/protege#"/>
+    <Declaration>
+        <Class IRI="#Address"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Berth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BoatRentalProvider"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CabinCruiser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CommercialBoat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CommercialBoatRentalProvider"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CommercialRoute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dinghy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dragon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Email"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Engine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ferry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Harbour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Haven"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hobie-Tiger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hobie-Wildcat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Laser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LeisureBoatRentalProvider"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LeisureRoute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mirror"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MotorBoat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Multihull"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonCommercialBoat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Optimist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Port"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Route"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SailingBoat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sloop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Telephone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topcat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tornado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trawler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yacht"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#acceptsBoatType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#allowedBoatType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#boatType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#connectsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contact"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#engine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#havenBerths"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isBiggerThan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCommercial"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLeisure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#locatedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#motors"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#rentalProviderBoats"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#rentalProviderHomeHaven"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#rents"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#routeHavens"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#routeType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sails"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#berthCapacity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#berthMaxLength"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#berthName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#berthsAvailable"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#boatLength"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#boatName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#color"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#engineSize"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasBoat"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasEngine"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSails"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#havenName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#providerName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#requiresCrew"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#routeName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sleepingSpaces"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Berth_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Berth_24"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Berth_25"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Berth_30"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Berth_31"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Berth_32"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BoatRentalProvider_Poole"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BoatRentalsPortsmouth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CabinCruiser_18"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CabinCruiser_20"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Commercial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cowes-Harbour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CowesBerth1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CowesBerth2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cutter_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ferry_26"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Laser_34"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NonCommercial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Poole-Harbour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Port_Portsmouth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Route_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Route_48"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Swanage-Harbour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SwanageBerth1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SwanageBerth2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Topcat_35"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Boat"/>
+        <ObjectUnionOf>
+            <Class IRI="#MotorBoat"/>
+            <Class IRI="#SailingBoat"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Haven"/>
+        <ObjectUnionOf>
+            <Class IRI="#Harbour"/>
+            <Class IRI="#Port"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MotorBoat"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Boat"/>
+            <DataHasValue>
+                <DataProperty IRI="#hasEngine"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SailingBoat"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Boat"/>
+            <DataHasValue>
+                <DataProperty IRI="#hasEngine"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Address"/>
+        <Class IRI="#Contact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Berth"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasBoat"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BoatRentalProvider"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#contact"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CabinCruiser"/>
+        <Class IRI="#MotorBoat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CommercialBoatRentalProvider"/>
+        <Class IRI="#BoatRentalProvider"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CommercialBoatRentalProvider"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#rents"/>
+            <Class IRI="#CommercialBoat"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CommercialRoute"/>
+        <Class IRI="#Route"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CommercialRoute"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#routeHavens"/>
+            <Class IRI="#Port"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CommercialRoute"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#routeType"/>
+            <Class IRI="#CommercialBoat"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cutter"/>
+        <Class IRI="#Yacht"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dinghy"/>
+        <Class IRI="#SailingBoat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dragon"/>
+        <Class IRI="#Yacht"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Email"/>
+        <Class IRI="#Contact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ferry"/>
+        <Class IRI="#MotorBoat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Harbour"/>
+        <Class IRI="#Haven"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Harbour"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#acceptsBoatType"/>
+            <Class IRI="#NonCommercialBoat"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hobie-Tiger"/>
+        <Class IRI="#Multihull"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hobie-Wildcat"/>
+        <Class IRI="#Multihull"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Laser"/>
+        <Class IRI="#Dinghy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LeisureBoatRentalProvider"/>
+        <Class IRI="#BoatRentalProvider"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LeisureBoatRentalProvider"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#rents"/>
+            <Class IRI="#NonCommercialBoat"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LeisureRoute"/>
+        <Class IRI="#Route"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LeisureRoute"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#routeHavens"/>
+            <Class IRI="#Harbour"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LeisureRoute"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#routeType"/>
+            <Class IRI="#NonCommercialBoat"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mirror"/>
+        <Class IRI="#Dinghy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MotorBoat"/>
+        <Class IRI="#Boat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MotorBoat"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#engine"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MotorBoat"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#engineSize"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Multihull"/>
+        <Class IRI="#SailingBoat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Optimist"/>
+        <Class IRI="#Dinghy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Port"/>
+        <Class IRI="#Haven"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Port"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#acceptsBoatType"/>
+            <Class IRI="#CommercialBoat"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SailingBoat"/>
+        <Class IRI="#Boat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sloop"/>
+        <Class IRI="#Yacht"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Telephone"/>
+        <Class IRI="#Contact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Topcat"/>
+        <Class IRI="#Multihull"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tornado"/>
+        <Class IRI="#Multihull"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trawler"/>
+        <Class IRI="#MotorBoat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tug"/>
+        <Class IRI="#MotorBoat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yacht"/>
+        <Class IRI="#SailingBoat"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#MotorBoat"/>
+        <Class IRI="#SailingBoat"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Berth"/>
+        <NamedIndividual IRI="#Berth_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Berth"/>
+        <NamedIndividual IRI="#Berth_24"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Berth"/>
+        <NamedIndividual IRI="#Berth_25"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Berth"/>
+        <NamedIndividual IRI="#Berth_30"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Berth"/>
+        <NamedIndividual IRI="#Berth_31"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Berth"/>
+        <NamedIndividual IRI="#Berth_32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BoatRentalProvider"/>
+        <NamedIndividual IRI="#BoatRentalProvider_Poole"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BoatRentalProvider"/>
+        <NamedIndividual IRI="#BoatRentalsPortsmouth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="#CabinCruiser_18"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="#CabinCruiser_20"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Harbour"/>
+        <NamedIndividual IRI="#Cowes-Harbour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Berth"/>
+        <NamedIndividual IRI="#CowesBerth1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Berth"/>
+        <NamedIndividual IRI="#CowesBerth2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="#Cutter_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ferry"/>
+        <NamedIndividual IRI="#Ferry_26"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Laser"/>
+        <NamedIndividual IRI="#Laser_34"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Harbour"/>
+        <NamedIndividual IRI="#Poole-Harbour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Port"/>
+        <NamedIndividual IRI="#Port_Portsmouth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Route"/>
+        <NamedIndividual IRI="#Route_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Route"/>
+        <NamedIndividual IRI="#Route_48"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Harbour"/>
+        <NamedIndividual IRI="#Swanage-Harbour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Berth"/>
+        <NamedIndividual IRI="#SwanageBerth1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Berth"/>
+        <NamedIndividual IRI="#SwanageBerth2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topcat"/>
+        <NamedIndividual IRI="#Topcat_35"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rentalProviderBoats"/>
+        <NamedIndividual IRI="#BoatRentalProvider_Poole"/>
+        <NamedIndividual IRI="#Laser_34"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rentalProviderBoats"/>
+        <NamedIndividual IRI="#BoatRentalProvider_Poole"/>
+        <NamedIndividual IRI="#Topcat_35"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rentalProviderHomeHaven"/>
+        <NamedIndividual IRI="#BoatRentalProvider_Poole"/>
+        <NamedIndividual IRI="#Poole-Harbour"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rentalProviderBoats"/>
+        <NamedIndividual IRI="#BoatRentalsPortsmouth"/>
+        <NamedIndividual IRI="#Ferry_26"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rentalProviderBoats"/>
+        <NamedIndividual IRI="#BoatRentalsPortsmouth"/>
+        <NamedIndividual IRI="#CabinCruiser_20"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rentalProviderHomeHaven"/>
+        <NamedIndividual IRI="#BoatRentalsPortsmouth"/>
+        <NamedIndividual IRI="#Port_Portsmouth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#havenBerths"/>
+        <NamedIndividual IRI="#Cowes-Harbour"/>
+        <NamedIndividual IRI="#CowesBerth1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#havenBerths"/>
+        <NamedIndividual IRI="#Cowes-Harbour"/>
+        <NamedIndividual IRI="#CowesBerth2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#havenBerths"/>
+        <NamedIndividual IRI="#Poole-Harbour"/>
+        <NamedIndividual IRI="#Berth_32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#havenBerths"/>
+        <NamedIndividual IRI="#Poole-Harbour"/>
+        <NamedIndividual IRI="#Berth_31"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#havenBerths"/>
+        <NamedIndividual IRI="#Poole-Harbour"/>
+        <NamedIndividual IRI="#Berth_30"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#havenBerths"/>
+        <NamedIndividual IRI="#Port_Portsmouth"/>
+        <NamedIndividual IRI="#Berth_24"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#havenBerths"/>
+        <NamedIndividual IRI="#Port_Portsmouth"/>
+        <NamedIndividual IRI="#Berth_25"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#havenBerths"/>
+        <NamedIndividual IRI="#Port_Portsmouth"/>
+        <NamedIndividual IRI="#Berth_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#routeHavens"/>
+        <NamedIndividual IRI="#Route_1"/>
+        <NamedIndividual IRI="#Poole-Harbour"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#routeHavens"/>
+        <NamedIndividual IRI="#Route_1"/>
+        <NamedIndividual IRI="#Swanage-Harbour"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#routeHavens"/>
+        <NamedIndividual IRI="#Route_48"/>
+        <NamedIndividual IRI="#Poole-Harbour"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#routeHavens"/>
+        <NamedIndividual IRI="#Route_48"/>
+        <NamedIndividual IRI="#Cowes-Harbour"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#havenBerths"/>
+        <NamedIndividual IRI="#Swanage-Harbour"/>
+        <NamedIndividual IRI="#SwanageBerth2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#havenBerths"/>
+        <NamedIndividual IRI="#Swanage-Harbour"/>
+        <NamedIndividual IRI="#SwanageBerth1"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#berthMaxLength"/>
+        <NamedIndividual IRI="#Berth_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#berthMaxLength"/>
+        <NamedIndividual IRI="#Berth_24"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#berthMaxLength"/>
+        <NamedIndividual IRI="#Berth_25"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#berthMaxLength"/>
+        <NamedIndividual IRI="#Berth_30"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#berthMaxLength"/>
+        <NamedIndividual IRI="#Berth_31"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#berthMaxLength"/>
+        <NamedIndividual IRI="#Berth_32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#providerName"/>
+        <NamedIndividual IRI="#BoatRentalProvider_Poole"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">pooleBoatProvider</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#providerName"/>
+        <NamedIndividual IRI="#BoatRentalsPortsmouth"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">portsmouthBoatProvider</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#boatLength"/>
+        <NamedIndividual IRI="#CabinCruiser_18"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#boatName"/>
+        <NamedIndividual IRI="#CabinCruiser_18"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CabinCruiser18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="#CabinCruiser_18"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="#CabinCruiser_18"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#boatLength"/>
+        <NamedIndividual IRI="#CabinCruiser_20"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#boatName"/>
+        <NamedIndividual IRI="#CabinCruiser_20"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">cabinCruiser20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="#CabinCruiser_20"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="#CabinCruiser_20"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#berthMaxLength"/>
+        <NamedIndividual IRI="#CowesBerth1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#berthMaxLength"/>
+        <NamedIndividual IRI="#CowesBerth2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#boatLength"/>
+        <NamedIndividual IRI="#Cutter_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="#Cutter_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="#Cutter_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#boatLength"/>
+        <NamedIndividual IRI="#Ferry_26"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="#Ferry_26"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="#Ferry_26"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#boatLength"/>
+        <NamedIndividual IRI="#Laser_34"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="#Laser_34"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="#Laser_34"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#havenName"/>
+        <NamedIndividual IRI="#Poole-Harbour"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Poole-Harbour</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#routeName"/>
+        <NamedIndividual IRI="#Route_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">route1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#routeName"/>
+        <NamedIndividual IRI="#Route_48"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">route2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#havenName"/>
+        <NamedIndividual IRI="#Swanage-Harbour"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SwanageHarbour</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#berthMaxLength"/>
+        <NamedIndividual IRI="#SwanageBerth1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#berthMaxLength"/>
+        <NamedIndividual IRI="#SwanageBerth2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#boatLength"/>
+        <NamedIndividual IRI="#Topcat_35"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="#Topcat_35"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="#Topcat_35"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#contact"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#engine"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isCommercial"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isLeisure"/>
+        <ObjectProperty IRI="#isCommercial"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#motors"/>
+        <ObjectProperty IRI="#sails"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#contact"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#engine"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#motors"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#sails"/>
+    </InverseFunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#belongsTo"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#connectsTo"/>
+    </SymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isBiggerThan"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#locatedIn"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#acceptsBoatType"/>
+        <Class IRI="#Haven"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#allowedBoatType"/>
+        <Class IRI="#Route"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongsTo"/>
+        <Class IRI="#BoatRentalProvider"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#boatType"/>
+        <Class IRI="#Boat"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#connectsTo"/>
+        <Class IRI="#Haven"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contact"/>
+        <Class IRI="#BoatRentalProvider"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#engine"/>
+        <Class IRI="#MotorBoat"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#havenBerths"/>
+        <Class IRI="#Haven"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isBiggerThan"/>
+        <Class IRI="#Boat"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCommercial"/>
+        <Class IRI="#Boat"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLeisure"/>
+        <Class IRI="#Boat"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#locatedIn"/>
+        <Class IRI="#Berth"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#motors"/>
+        <Class IRI="#Boat"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#rentalProviderBoats"/>
+        <Class IRI="#BoatRentalProvider"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#rentalProviderHomeHaven"/>
+        <Class IRI="#BoatRentalProvider"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#routeHavens"/>
+        <Class IRI="#Route"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#sails"/>
+        <Class IRI="#Boat"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongsTo"/>
+        <Class IRI="#Boat"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#connectsTo"/>
+        <Class IRI="#Haven"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contact"/>
+        <Class IRI="#Contact"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#engine"/>
+        <Class IRI="#Engine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#havenBerths"/>
+        <Class IRI="#Berth"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isBiggerThan"/>
+        <Class IRI="#Boat"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#locatedIn"/>
+        <Class IRI="#Haven"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#motors"/>
+        <Class IRI="#MotorBoat"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#rentalProviderBoats"/>
+        <Class IRI="#Boat"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#rentalProviderHomeHaven"/>
+        <Class IRI="#Haven"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#routeHavens"/>
+        <Class IRI="#Haven"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#sails"/>
+        <Class IRI="#SailingBoat"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasEngine"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#berthMaxLength"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#boatLength"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasEngine"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasSails"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#sleepingSpaces"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#berthCapacity"/>
+        <Class IRI="#Haven"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#berthMaxLength"/>
+        <Class IRI="#Berth"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#berthName"/>
+        <Class IRI="#Berth"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#berthsAvailable"/>
+        <Class IRI="#Haven"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#boatLength"/>
+        <Class IRI="#Boat"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#boatName"/>
+        <Class IRI="#Boat"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#color"/>
+        <Class IRI="#Boat"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#engineSize"/>
+        <Class IRI="#Boat"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasBoat"/>
+        <Class IRI="#Boat"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasEngine"/>
+        <Class IRI="#MotorBoat"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSails"/>
+        <Class IRI="#SailingBoat"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#havenName"/>
+        <Class IRI="#Haven"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#providerName"/>
+        <Class IRI="#BoatRentalProvider"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requiresCrew"/>
+        <Class IRI="#Boat"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#routeName"/>
+        <Class IRI="#Route"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <Class IRI="#Boat"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#berthCapacity"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#berthMaxLength"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#berthName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#berthsAvailable"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#boatLength"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#boatName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#color"/>
+        <DataOneOf>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">{&quot;Red&quot;, &quot;Blue&quot;, &quot;Green&quot;}</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#engineSize"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasBoat"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasEngine"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSails"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#havenName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#providerName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#requiresCrew"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#routeName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DisjointDataProperties>
+        <DataProperty IRI="#hasEngine"/>
+        <DataProperty IRI="#hasSails"/>
+    </DisjointDataProperties>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Berth</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is the Berth class representing berths in a Haven (Port, or Harbour) where boats can moor up.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Boat</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is the union class representing Boats as the union of motor boats and sailing boats</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BoatRentalProvider</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is the Boat Rental Provider class, representing companies which rent out boats, whether commercial or leisure (non-commercial)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CommercialBoat</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is the CommercialBoat class for categorising commercial boats</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Contact</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is the Contact details for the Boat Rental Provider, or for the Boat owner.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Engine</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is the Engine class for motorised boats</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Haven</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is the Haven class, representing the union of the Harbour and Port classes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MotorBoat</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is the MotorBoat class representing boats which have engines, and not sails</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NonCommercialBoat</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is the NonCommercialBoat class for categorising non commercial boats</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Route</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is the Route class, representing routes between different Havens (Harbour, Port), whether commercial or leisure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SailingBoat</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is the SailingBoat class representing boats which have sails (and not engines)</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.3-SNAPSHOT) http://owlapi.sourceforge.net -->
+

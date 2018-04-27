@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../grizzly-rest-service/jersey-service.iml" filepath="$PROJECT_DIR$/../grizzly-rest-service/jersey-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/university-owl.iml" filepath="$PROJECT_DIR$/university-owl.iml" />
+    </modules>
+  </component>
+</project>
