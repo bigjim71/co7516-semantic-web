@@ -108,8 +108,11 @@ public class OntologyDataImporter {
 //		FoafExample f = new FoafExample();
 //		f.doExample();
 
-		BirthPlaceExample bpe = new BirthPlaceExample();
-		bpe.doExample();
+//		BirthPlaceExample bpe = new BirthPlaceExample();
+//		bpe.doExample();
+
+		BoatExample be = new BoatExample();
+		be.doExample();
 
 	 }
 
@@ -228,6 +231,33 @@ public class OntologyDataImporter {
 			}
 				//03/28/11
 		}
+	 }
+
+	 private static class BoatExample{
+
+	 	//http://brunodias.space/2016/06/29/scraping-for-fun-and-corpora/index.html
+		 //http://mappings.dbpedia.org/index.php/OntologyClass:Ship
+		 //http://dbpedia.org/ontology/Ship
+
+		 public void doExample() {
+
+			 String service = "http://dbpedia.org/sparql";
+			 String query = "PREFIX dbo:<http://dbpedia.org/ontology/>"
+					// + PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+					 + "PREFIX : <http://dbpedia.org/resource/>"
+					 + "PREFIX foaf:<http://xmlns.com/foaf/0.1/>"
+					 + "select ?ship where {?ship rdf:type dbo:Ship }";
+			 QueryExecution qe= QueryExecutionFactory.sparqlService(service, query);
+			 ResultSet rs=qe.execSelect();
+			 while (rs.hasNext()){
+				 QuerySolution s=rs.nextSolution();
+				 Resource r=s.getResource("?ship");
+				 //Literal name=s.getLiteral("?name");
+				 System.out.println(s.getResource("?person").toString());
+				 System.out.println(s.getLiteral("?name").getString());
+			 }
+			 //03/28/11
+		 }
 	 }
 
 }

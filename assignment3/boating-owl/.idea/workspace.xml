@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e4cd095-3c68-4775-9a86-6b70c2000a12" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/markdown-navigator/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/xtextAutoBuilderState.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment3.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/boating/rest/Boat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/boating/rest/BoatsService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/boating/rest/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/data.ttl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/index_react.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/scripts/example.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../assignment1/catalog-v001.xml" afterPath="$PROJECT_DIR$/../../assignment1/catalog-v001.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/boating/OntologyDataImporter$BirthPlaceExample.class" afterPath="$PROJECT_DIR$/target/classes/com/boating/OntologyDataImporter$BirthPlaceExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/boating/OntologyDataImporter$FoafExample.class" afterPath="$PROJECT_DIR$/target/classes/com/boating/OntologyDataImporter$FoafExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/boating/OntologyDataImporter.class" afterPath="$PROJECT_DIR$/target/classes/com/boating/OntologyDataImporter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/boating/OntologyDataImporter.java" afterPath="$PROJECT_DIR$/src/main/java/com/boating/OntologyDataImporter.java" />
     </list>
     <ignored path="university-owl.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -110,8 +98,8 @@
       <file leaf-file-name="OntologyDataImporter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/boating/OntologyDataImporter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="31" column="76" selection-start-line="31" selection-start-column="76" selection-end-line="31" selection-end-column="76" />
+            <state relative-caret-position="197">
+              <caret line="239" column="43" selection-start-line="239" selection-start-column="43" selection-end-line="239" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="class#FoafExample#0;class#OntologyDataImporter#0" expanded="false" />
@@ -1154,12 +1142,12 @@
       <workItem from="1523872463680" duration="2067000" />
       <workItem from="1523888560823" duration="4057000" />
       <workItem from="1524209522061" duration="6965000" />
-      <workItem from="1524752441091" duration="13289000" />
+      <workItem from="1524752441091" duration="14050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26378000" />
+    <option name="totallyTimeSpent" value="27139000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="217" y="138" width="1348" height="827" extended-state="0" />
@@ -1653,8 +1641,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/boating/OntologyDataImporter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="31" column="76" selection-start-line="31" selection-start-column="76" selection-end-line="31" selection-end-column="76" />
+        <state relative-caret-position="197">
+          <caret line="239" column="43" selection-start-line="239" selection-start-column="43" selection-end-line="239" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#FoafExample#0;class#OntologyDataImporter#0" expanded="false" />
