@@ -3,10 +3,14 @@ package com.boating;
 import com.boating.cs.*;
 import org.apache.jena.ontology.OntModel;
 import org.apache.jena.ontology.OntModelSpec;
-import org.apache.jena.query.*;
+import org.apache.jena.query.QueryExecution;
+import org.apache.jena.query.QueryExecutionFactory;
+import org.apache.jena.query.QuerySolution;
+import org.apache.jena.query.ResultSet;
 import org.apache.jena.rdf.model.Literal;
-import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.Resource;
+import org.apache.jena.riot.RDFDataMgr;
 import org.semanticweb.owlapi.apibinding.OWLManager;
 import org.semanticweb.owlapi.model.IRI;
 import org.semanticweb.owlapi.model.OWLOntology;
@@ -45,8 +49,6 @@ public class OntologyDataImporter {
             ont = manager.loadOntologyFromOntologyDocument(iri);
             System.out.println("Loaded ontology: " + ont);
 
-            spec = new OntModelSpec(OntModelSpec.OWL_DL_MEM);
-            model = ModelFactory.createOntologyModel(spec);
 
         } catch (Exception ex) {
             ex.printStackTrace();
@@ -151,25 +153,7 @@ public class OntologyDataImporter {
             boatRentalProvider.addBelongsTo((Boat) cutter);
             boatRentalProvider.addContact(contact);
 
-            String ql = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n" +
-                    "PREFIX owl: <http://www.w3.org/2002/07/owl#>\n" +
-                    "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
-                    "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n" +
-                    "PREFIX boat: <http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#>\n" +
-                    "SELECT * " +
-                    "WHERE" +
-                    "{ ?s ?p ?o" +
-                    //"?brp :boatRentalProviders ?boat ." +
-                    "}" ;
-            Query query = QueryFactory.create(ql);
-            QueryExecution ex = QueryExecutionFactory.create(ql, model);
-            ResultSet rs1 = qe.execSelect();
-            while (rs1.hasNext()) {
-                QuerySolution s1 = rs.nextSolution();
-                Resource brp = s1.getResource("?s");
-                System.out.println(brp.toString());
 
-            }
 
         }
 
@@ -191,16 +175,18 @@ public class OntologyDataImporter {
     }
 
 
-    public void save() {
+    public OWLOntology save() {
 
         try {
 
             File file = new File(ontology_saved);
             manager.saveOntology(ont, IRI.create(file.toURI()));
             System.out.println("Saved ontology: " + ont);
+            return ont;
 
         } catch (Exception ex) {
             ex.printStackTrace();
+            return null;
         }
 
     }
@@ -212,7 +198,12 @@ public class OntologyDataImporter {
         app.populate();
         app.createRelationships();
         app.save();
+        //app.doX();
 
+    }
+
+    public Model getModel(){
+        return RDFDataMgr.loadModel(OntologyDataImporter.ontology_saved);
     }
 
     private Integer getIntegerValue(String intValue) {
