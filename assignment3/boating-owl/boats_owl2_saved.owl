@@ -541,6 +541,390 @@
         <Class IRI="#SailingBoat"/>
     </DisjointClasses>
     <ClassAssertion>
+        <Class IRI="#BoatRentalProvider"/>
+        <NamedIndividual IRI="19862008PartrederietBergesenGOICDA20082009BergesenDYShippingAS20092012BWBulkAS2012BergeStahlCompanySAhttpwwww3org19990222rdfsyntaxnslangString"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Engine"/>
+        <NamedIndividual IRI="268httpwwww3org2001XMLSchemainteger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Engine"/>
+        <NamedIndividual IRI="2steamturbinesCompoundsteamenginehttpwwww3org19990222rdfsyntaxnslangString"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Engine"/>
+        <NamedIndividual IRI="4httpwwww3org2001XMLSchemainteger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Engine"/>
+        <NamedIndividual IRI="60000httpdbpediaorgdatatypehorsepower"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Engine"/>
+        <NamedIndividual IRI="685200httpdbpediaorgdatatypekilowatt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Contact"/>
+        <NamedIndividual IRI="AilsaShipbuildingCompany"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="Ambria192234en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="Ambria192234en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="Arcadia19221934en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="Arcadia19221934en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Haven"/>
+        <NamedIndividual IRI="Ayr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Haven"/>
+        <NamedIndividual IRI="Ayrshire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Haven"/>
+        <NamedIndividual IRI="Belfast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="BergeStahlen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="BergeStahlen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="Brunes194647en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="Brunes194647en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="Cachupin196466en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="Cachupin196466en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Haven"/>
+        <NamedIndividual IRI="CityofSunderland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Contact"/>
+        <NamedIndividual IRI="ClarkandCompany"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BoatRentalProvider"/>
+        <NamedIndividual IRI="CompanhiaColonialdeNavegaohttpwwww3org19990222rdfsyntaxnslangString"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="Condor1019932011en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="Condor1019932011en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="Coolabah195256en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="Coolabah195256en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Contact"/>
+        <NamedIndividual IRI="DeutscheWerft"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="Dragnes194647en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="Dragnes194647en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="Elbing193445en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="Elbing193445en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="EmpireCongress194546en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="EmpireCongress194546en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="EmpireConleith194546en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="EmpireConleith194546en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="EmpireDirk194351en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="EmpireDirk194351en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BoatRentalProvider"/>
+        <NamedIndividual IRI="EnterpriseTradingPteLtdCondorFerriesHanilExpressCoLtdhttpwwww3org19990222rdfsyntaxnslangString"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Haven"/>
+        <NamedIndividual IRI="Finkenwerder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="FranciscoMorazan195860en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="FranciscoMorazan195860en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BoatRentalProvider"/>
+        <NamedIndividual IRI="GalgateShippingCohttpwwww3org19990222rdfsyntaxnslangString"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="Gumbinnen193445en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="Gumbinnen193445en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Haven"/>
+        <NamedIndividual IRI="Hamburg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BoatRentalProvider"/>
+        <NamedIndividual IRI="HamburgAmerikaPacketAGKohlenImportPoseidonSchiffahrtAGKriegsmarineKohlenImportPoseidonSchiffahrtAGMinistryofWarTransportMinistryofTransportNorwegianGovernmentRMithasselBirgerEkerholtUnknownGreekownerCTTrapezountioshttpwwww3org19990222rdfsyntaxnslangString"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BoatRentalProvider"/>
+        <NamedIndividual IRI="HamburgAmerikanischePacketfahrtActiengesellschaftDeutscheLevantLinieKohlenImportPoseidonSchiffahrtAGMinistryofWarTransportMinistryofTransportNorwegianGovernmentKAndersenCoTHalvorsenAShttpwwww3org19990222rdfsyntaxnslangString"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="HanilBlueNarae2011onwardsen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="HanilBlueNarae2011onwardsen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Haven"/>
+        <NamedIndividual IRI="Hobart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Engine"/>
+        <NamedIndividual IRI="Hyundai7L90MCEhttpwwww3org19990222rdfsyntaxnslangString"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Contact"/>
+        <NamedIndividual IRI="HyundaiHeavyIndustries"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Contact"/>
+        <NamedIndividual IRI="Incat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BoatRentalProvider"/>
+        <NamedIndividual IRI="JugoslavenskaLloydhttpwwww3org19990222rdfsyntaxnslangString"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="KowloonNo1196667en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="KowloonNo1196667en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="LosMayas1958en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="LosMayas1958en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="Malay195961en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="Malay195961en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="Manchesteren"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="Manchesteren"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="Mimona194759en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="Mimona194759en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BoatRentalProvider"/>
+        <NamedIndividual IRI="MinistryofWarTransportMinistryofTransportMollerLineLtdAustralianShippingBoardCambayPrinceSteamshipCoLtdSanFernandoSteamshipCoLtdShuiCheungShippingTradingLtdhttpwwww3org19990222rdfsyntaxnslangString"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="MountAustin195152en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="MountAustin195152en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="NancyMoller1951en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="NancyMoller1951en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="PrincessOlgaen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="PrincessOlgaen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="RMSEbroen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="RMSEbroen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="Rings194858en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="Rings194858en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Engine"/>
+        <NamedIndividual IRI="Sailshttpwwww3org19990222rdfsyntaxnslangString"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Contact"/>
+        <NamedIndividual IRI="SamsungHeavyIndustries"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Haven"/>
+        <NamedIndividual IRI="SamsungTown"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Haven"/>
+        <NamedIndividual IRI="Seoul"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="SerpaPintoen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="SerpaPintoen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="Skuld194748en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="Skuld194748en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Contact"/>
+        <NamedIndividual IRI="Sons"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Haven"/>
+        <NamedIndividual IRI="SouthKorea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Haven"/>
+        <NamedIndividual IRI="Tasmania"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Haven"/>
+        <NamedIndividual IRI="Troon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="TroonBreeze195664en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="TroonBreeze195664en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Engine"/>
+        <NamedIndividual IRI="TwosteamturbinesdoublereductiongeareddrivingoneshaftCompoundsteamenginehttpwwww3org19990222rdfsyntaxnslangString"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Haven"/>
+        <NamedIndividual IRI="Ulsan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Haven"/>
+        <NamedIndividual IRI="UnitedKingdom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CabinCruiser"/>
+        <NamedIndividual IRI="XinBeijingen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutter"/>
+        <NamedIndividual IRI="XinBeijingen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BoatRentalProvider"/>
+        <NamedIndividual IRI="YangshanDShippingCompanyLtdhttpwwww3org19990222rdfsyntaxnslangString"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Berth"/>
         <NamedIndividual IRI="#Berth_1"/>
     </ClassAssertion>
@@ -637,14 +1021,314 @@
         <NamedIndividual IRI="#Topcat_35"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#rentalProviderBoats"/>
-        <NamedIndividual IRI="#BoatRentalProvider_Poole"/>
-        <NamedIndividual IRI="#Laser_34"/>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="19862008PartrederietBergesenGOICDA20082009BergesenDYShippingAS20092012BWBulkAS2012BergeStahlCompanySAhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="BergeStahlen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contact"/>
+        <NamedIndividual IRI="19862008PartrederietBergesenGOICDA20082009BergesenDYShippingAS20092012BWBulkAS2012BergeStahlCompanySAhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="HyundaiHeavyIndustries"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rentalProviderHomeHaven"/>
+        <NamedIndividual IRI="19862008PartrederietBergesenGOICDA20082009BergesenDYShippingAS20092012BWBulkAS2012BergeStahlCompanySAhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="Ulsan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rentalProviderHomeHaven"/>
+        <NamedIndividual IRI="19862008PartrederietBergesenGOICDA20082009BergesenDYShippingAS20092012BWBulkAS2012BergeStahlCompanySAhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="SouthKorea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="CompanhiaColonialdeNavegaohttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="RMSEbroen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="CompanhiaColonialdeNavegaohttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="PrincessOlgaen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="CompanhiaColonialdeNavegaohttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="SerpaPintoen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contact"/>
+        <NamedIndividual IRI="CompanhiaColonialdeNavegaohttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="ClarkandCompany"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rentalProviderHomeHaven"/>
+        <NamedIndividual IRI="CompanhiaColonialdeNavegaohttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="UnitedKingdom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rentalProviderHomeHaven"/>
+        <NamedIndividual IRI="CompanhiaColonialdeNavegaohttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="Belfast"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="EnterpriseTradingPteLtdCondorFerriesHanilExpressCoLtdhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="HanilBlueNarae2011onwardsen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="EnterpriseTradingPteLtdCondorFerriesHanilExpressCoLtdhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="Condor1019932011en"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contact"/>
+        <NamedIndividual IRI="EnterpriseTradingPteLtdCondorFerriesHanilExpressCoLtdhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="Incat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rentalProviderHomeHaven"/>
+        <NamedIndividual IRI="EnterpriseTradingPteLtdCondorFerriesHanilExpressCoLtdhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="Hobart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rentalProviderHomeHaven"/>
+        <NamedIndividual IRI="EnterpriseTradingPteLtdCondorFerriesHanilExpressCoLtdhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="Tasmania"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="GalgateShippingCohttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="Manchesteren"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contact"/>
+        <NamedIndividual IRI="GalgateShippingCohttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="Sons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rentalProviderHomeHaven"/>
+        <NamedIndividual IRI="GalgateShippingCohttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="UnitedKingdom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rentalProviderHomeHaven"/>
+        <NamedIndividual IRI="GalgateShippingCohttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="CityofSunderland"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="HamburgAmerikaPacketAGKohlenImportPoseidonSchiffahrtAGKriegsmarineKohlenImportPoseidonSchiffahrtAGMinistryofWarTransportMinistryofTransportNorwegianGovernmentRMithasselBirgerEkerholtUnknownGreekownerCTTrapezountioshttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="Brunes194647en"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="HamburgAmerikaPacketAGKohlenImportPoseidonSchiffahrtAGKriegsmarineKohlenImportPoseidonSchiffahrtAGMinistryofWarTransportMinistryofTransportNorwegianGovernmentRMithasselBirgerEkerholtUnknownGreekownerCTTrapezountioshttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="LosMayas1958en"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="HamburgAmerikaPacketAGKohlenImportPoseidonSchiffahrtAGKriegsmarineKohlenImportPoseidonSchiffahrtAGMinistryofWarTransportMinistryofTransportNorwegianGovernmentRMithasselBirgerEkerholtUnknownGreekownerCTTrapezountioshttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="Elbing193445en"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="HamburgAmerikaPacketAGKohlenImportPoseidonSchiffahrtAGKriegsmarineKohlenImportPoseidonSchiffahrtAGMinistryofWarTransportMinistryofTransportNorwegianGovernmentRMithasselBirgerEkerholtUnknownGreekownerCTTrapezountioshttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="EmpireCongress194546en"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="HamburgAmerikaPacketAGKohlenImportPoseidonSchiffahrtAGKriegsmarineKohlenImportPoseidonSchiffahrtAGMinistryofWarTransportMinistryofTransportNorwegianGovernmentRMithasselBirgerEkerholtUnknownGreekownerCTTrapezountioshttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="FranciscoMorazan195860en"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="HamburgAmerikaPacketAGKohlenImportPoseidonSchiffahrtAGKriegsmarineKohlenImportPoseidonSchiffahrtAGMinistryofWarTransportMinistryofTransportNorwegianGovernmentRMithasselBirgerEkerholtUnknownGreekownerCTTrapezountioshttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="Arcadia19221934en"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="HamburgAmerikaPacketAGKohlenImportPoseidonSchiffahrtAGKriegsmarineKohlenImportPoseidonSchiffahrtAGMinistryofWarTransportMinistryofTransportNorwegianGovernmentRMithasselBirgerEkerholtUnknownGreekownerCTTrapezountioshttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="Rings194858en"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="HamburgAmerikaPacketAGKohlenImportPoseidonSchiffahrtAGKriegsmarineKohlenImportPoseidonSchiffahrtAGMinistryofWarTransportMinistryofTransportNorwegianGovernmentRMithasselBirgerEkerholtUnknownGreekownerCTTrapezountioshttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="Skuld194748en"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contact"/>
+        <NamedIndividual IRI="HamburgAmerikaPacketAGKohlenImportPoseidonSchiffahrtAGKriegsmarineKohlenImportPoseidonSchiffahrtAGMinistryofWarTransportMinistryofTransportNorwegianGovernmentRMithasselBirgerEkerholtUnknownGreekownerCTTrapezountioshttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="DeutscheWerft"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rentalProviderHomeHaven"/>
+        <NamedIndividual IRI="HamburgAmerikaPacketAGKohlenImportPoseidonSchiffahrtAGKriegsmarineKohlenImportPoseidonSchiffahrtAGMinistryofWarTransportMinistryofTransportNorwegianGovernmentRMithasselBirgerEkerholtUnknownGreekownerCTTrapezountioshttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="Hamburg"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rentalProviderHomeHaven"/>
+        <NamedIndividual IRI="HamburgAmerikaPacketAGKohlenImportPoseidonSchiffahrtAGKriegsmarineKohlenImportPoseidonSchiffahrtAGMinistryofWarTransportMinistryofTransportNorwegianGovernmentRMithasselBirgerEkerholtUnknownGreekownerCTTrapezountioshttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="Finkenwerder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="HamburgAmerikanischePacketfahrtActiengesellschaftDeutscheLevantLinieKohlenImportPoseidonSchiffahrtAGMinistryofWarTransportMinistryofTransportNorwegianGovernmentKAndersenCoTHalvorsenAShttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="EmpireConleith194546en"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="HamburgAmerikanischePacketfahrtActiengesellschaftDeutscheLevantLinieKohlenImportPoseidonSchiffahrtAGMinistryofWarTransportMinistryofTransportNorwegianGovernmentKAndersenCoTHalvorsenAShttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="Gumbinnen193445en"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="HamburgAmerikanischePacketfahrtActiengesellschaftDeutscheLevantLinieKohlenImportPoseidonSchiffahrtAGMinistryofWarTransportMinistryofTransportNorwegianGovernmentKAndersenCoTHalvorsenAShttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="Mimona194759en"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="HamburgAmerikanischePacketfahrtActiengesellschaftDeutscheLevantLinieKohlenImportPoseidonSchiffahrtAGMinistryofWarTransportMinistryofTransportNorwegianGovernmentKAndersenCoTHalvorsenAShttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="Dragnes194647en"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="HamburgAmerikanischePacketfahrtActiengesellschaftDeutscheLevantLinieKohlenImportPoseidonSchiffahrtAGMinistryofWarTransportMinistryofTransportNorwegianGovernmentKAndersenCoTHalvorsenAShttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="Ambria192234en"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="HamburgAmerikanischePacketfahrtActiengesellschaftDeutscheLevantLinieKohlenImportPoseidonSchiffahrtAGMinistryofWarTransportMinistryofTransportNorwegianGovernmentKAndersenCoTHalvorsenAShttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="Malay195961en"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contact"/>
+        <NamedIndividual IRI="HamburgAmerikanischePacketfahrtActiengesellschaftDeutscheLevantLinieKohlenImportPoseidonSchiffahrtAGMinistryofWarTransportMinistryofTransportNorwegianGovernmentKAndersenCoTHalvorsenAShttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="DeutscheWerft"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rentalProviderHomeHaven"/>
+        <NamedIndividual IRI="HamburgAmerikanischePacketfahrtActiengesellschaftDeutscheLevantLinieKohlenImportPoseidonSchiffahrtAGMinistryofWarTransportMinistryofTransportNorwegianGovernmentKAndersenCoTHalvorsenAShttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="Finkenwerder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rentalProviderHomeHaven"/>
+        <NamedIndividual IRI="HamburgAmerikanischePacketfahrtActiengesellschaftDeutscheLevantLinieKohlenImportPoseidonSchiffahrtAGMinistryofWarTransportMinistryofTransportNorwegianGovernmentKAndersenCoTHalvorsenAShttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="Hamburg"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="JugoslavenskaLloydhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="RMSEbroen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="JugoslavenskaLloydhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="PrincessOlgaen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="JugoslavenskaLloydhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="SerpaPintoen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contact"/>
+        <NamedIndividual IRI="JugoslavenskaLloydhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="ClarkandCompany"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rentalProviderHomeHaven"/>
+        <NamedIndividual IRI="JugoslavenskaLloydhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="Belfast"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rentalProviderHomeHaven"/>
+        <NamedIndividual IRI="JugoslavenskaLloydhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="UnitedKingdom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="MinistryofWarTransportMinistryofTransportMollerLineLtdAustralianShippingBoardCambayPrinceSteamshipCoLtdSanFernandoSteamshipCoLtdShuiCheungShippingTradingLtdhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="Coolabah195256en"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="MinistryofWarTransportMinistryofTransportMollerLineLtdAustralianShippingBoardCambayPrinceSteamshipCoLtdSanFernandoSteamshipCoLtdShuiCheungShippingTradingLtdhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="EmpireDirk194351en"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="MinistryofWarTransportMinistryofTransportMollerLineLtdAustralianShippingBoardCambayPrinceSteamshipCoLtdSanFernandoSteamshipCoLtdShuiCheungShippingTradingLtdhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="KowloonNo1196667en"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="MinistryofWarTransportMinistryofTransportMollerLineLtdAustralianShippingBoardCambayPrinceSteamshipCoLtdSanFernandoSteamshipCoLtdShuiCheungShippingTradingLtdhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="Cachupin196466en"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="MinistryofWarTransportMinistryofTransportMollerLineLtdAustralianShippingBoardCambayPrinceSteamshipCoLtdSanFernandoSteamshipCoLtdShuiCheungShippingTradingLtdhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="TroonBreeze195664en"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="MinistryofWarTransportMinistryofTransportMollerLineLtdAustralianShippingBoardCambayPrinceSteamshipCoLtdSanFernandoSteamshipCoLtdShuiCheungShippingTradingLtdhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="NancyMoller1951en"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="MinistryofWarTransportMinistryofTransportMollerLineLtdAustralianShippingBoardCambayPrinceSteamshipCoLtdSanFernandoSteamshipCoLtdShuiCheungShippingTradingLtdhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="MountAustin195152en"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contact"/>
+        <NamedIndividual IRI="MinistryofWarTransportMinistryofTransportMollerLineLtdAustralianShippingBoardCambayPrinceSteamshipCoLtdSanFernandoSteamshipCoLtdShuiCheungShippingTradingLtdhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="AilsaShipbuildingCompany"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rentalProviderHomeHaven"/>
+        <NamedIndividual IRI="MinistryofWarTransportMinistryofTransportMollerLineLtdAustralianShippingBoardCambayPrinceSteamshipCoLtdSanFernandoSteamshipCoLtdShuiCheungShippingTradingLtdhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="Ayr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rentalProviderHomeHaven"/>
+        <NamedIndividual IRI="MinistryofWarTransportMinistryofTransportMollerLineLtdAustralianShippingBoardCambayPrinceSteamshipCoLtdSanFernandoSteamshipCoLtdShuiCheungShippingTradingLtdhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="Ayrshire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rentalProviderHomeHaven"/>
+        <NamedIndividual IRI="MinistryofWarTransportMinistryofTransportMollerLineLtdAustralianShippingBoardCambayPrinceSteamshipCoLtdSanFernandoSteamshipCoLtdShuiCheungShippingTradingLtdhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="Troon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="YangshanDShippingCompanyLtdhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="XinBeijingen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contact"/>
+        <NamedIndividual IRI="YangshanDShippingCompanyLtdhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="SamsungHeavyIndustries"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rentalProviderHomeHaven"/>
+        <NamedIndividual IRI="YangshanDShippingCompanyLtdhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="Seoul"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rentalProviderHomeHaven"/>
+        <NamedIndividual IRI="YangshanDShippingCompanyLtdhttpwwww3org19990222rdfsyntaxnslangString"/>
+        <NamedIndividual IRI="SamsungTown"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#rentalProviderBoats"/>
         <NamedIndividual IRI="#BoatRentalProvider_Poole"/>
         <NamedIndividual IRI="#Topcat_35"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rentalProviderBoats"/>
+        <NamedIndividual IRI="#BoatRentalProvider_Poole"/>
+        <NamedIndividual IRI="#Laser_34"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#rentalProviderHomeHaven"/>
@@ -654,12 +1338,12 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#rentalProviderBoats"/>
         <NamedIndividual IRI="#BoatRentalsPortsmouth"/>
-        <NamedIndividual IRI="#Ferry_26"/>
+        <NamedIndividual IRI="#CabinCruiser_20"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#rentalProviderBoats"/>
         <NamedIndividual IRI="#BoatRentalsPortsmouth"/>
-        <NamedIndividual IRI="#CabinCruiser_20"/>
+        <NamedIndividual IRI="#Ferry_26"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#rentalProviderHomeHaven"/>
@@ -694,17 +1378,17 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#havenBerths"/>
         <NamedIndividual IRI="#Port_Portsmouth"/>
+        <NamedIndividual IRI="#Berth_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#havenBerths"/>
+        <NamedIndividual IRI="#Port_Portsmouth"/>
         <NamedIndividual IRI="#Berth_24"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#havenBerths"/>
         <NamedIndividual IRI="#Port_Portsmouth"/>
         <NamedIndividual IRI="#Berth_25"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#havenBerths"/>
-        <NamedIndividual IRI="#Port_Portsmouth"/>
-        <NamedIndividual IRI="#Berth_1"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#routeHavens"/>
@@ -736,6 +1420,731 @@
         <NamedIndividual IRI="#Swanage-Harbour"/>
         <NamedIndividual IRI="#SwanageBerth1"/>
     </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engineSize"/>
+        <NamedIndividual IRI="Ambria192234en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEngine"/>
+        <NamedIndividual IRI="Ambria192234en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSails"/>
+        <NamedIndividual IRI="Ambria192234en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="Ambria192234en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="Ambria192234en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engineSize"/>
+        <NamedIndividual IRI="Arcadia19221934en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEngine"/>
+        <NamedIndividual IRI="Arcadia19221934en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSails"/>
+        <NamedIndividual IRI="Arcadia19221934en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="Arcadia19221934en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="Arcadia19221934en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engineSize"/>
+        <NamedIndividual IRI="BergeStahlen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEngine"/>
+        <NamedIndividual IRI="BergeStahlen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSails"/>
+        <NamedIndividual IRI="BergeStahlen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="BergeStahlen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="BergeStahlen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engineSize"/>
+        <NamedIndividual IRI="Brunes194647en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEngine"/>
+        <NamedIndividual IRI="Brunes194647en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSails"/>
+        <NamedIndividual IRI="Brunes194647en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="Brunes194647en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="Brunes194647en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engineSize"/>
+        <NamedIndividual IRI="Cachupin196466en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEngine"/>
+        <NamedIndividual IRI="Cachupin196466en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSails"/>
+        <NamedIndividual IRI="Cachupin196466en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="Cachupin196466en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="Cachupin196466en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engineSize"/>
+        <NamedIndividual IRI="Condor1019932011en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEngine"/>
+        <NamedIndividual IRI="Condor1019932011en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSails"/>
+        <NamedIndividual IRI="Condor1019932011en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="Condor1019932011en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="Condor1019932011en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engineSize"/>
+        <NamedIndividual IRI="Coolabah195256en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEngine"/>
+        <NamedIndividual IRI="Coolabah195256en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSails"/>
+        <NamedIndividual IRI="Coolabah195256en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="Coolabah195256en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="Coolabah195256en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engineSize"/>
+        <NamedIndividual IRI="Dragnes194647en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEngine"/>
+        <NamedIndividual IRI="Dragnes194647en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSails"/>
+        <NamedIndividual IRI="Dragnes194647en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="Dragnes194647en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="Dragnes194647en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engineSize"/>
+        <NamedIndividual IRI="Elbing193445en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEngine"/>
+        <NamedIndividual IRI="Elbing193445en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSails"/>
+        <NamedIndividual IRI="Elbing193445en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="Elbing193445en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="Elbing193445en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engineSize"/>
+        <NamedIndividual IRI="EmpireCongress194546en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEngine"/>
+        <NamedIndividual IRI="EmpireCongress194546en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSails"/>
+        <NamedIndividual IRI="EmpireCongress194546en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="EmpireCongress194546en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="EmpireCongress194546en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engineSize"/>
+        <NamedIndividual IRI="EmpireConleith194546en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEngine"/>
+        <NamedIndividual IRI="EmpireConleith194546en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSails"/>
+        <NamedIndividual IRI="EmpireConleith194546en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="EmpireConleith194546en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="EmpireConleith194546en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engineSize"/>
+        <NamedIndividual IRI="EmpireDirk194351en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEngine"/>
+        <NamedIndividual IRI="EmpireDirk194351en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSails"/>
+        <NamedIndividual IRI="EmpireDirk194351en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="EmpireDirk194351en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="EmpireDirk194351en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engineSize"/>
+        <NamedIndividual IRI="FranciscoMorazan195860en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEngine"/>
+        <NamedIndividual IRI="FranciscoMorazan195860en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSails"/>
+        <NamedIndividual IRI="FranciscoMorazan195860en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="FranciscoMorazan195860en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="FranciscoMorazan195860en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engineSize"/>
+        <NamedIndividual IRI="Gumbinnen193445en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEngine"/>
+        <NamedIndividual IRI="Gumbinnen193445en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSails"/>
+        <NamedIndividual IRI="Gumbinnen193445en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="Gumbinnen193445en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="Gumbinnen193445en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engineSize"/>
+        <NamedIndividual IRI="HanilBlueNarae2011onwardsen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEngine"/>
+        <NamedIndividual IRI="HanilBlueNarae2011onwardsen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSails"/>
+        <NamedIndividual IRI="HanilBlueNarae2011onwardsen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="HanilBlueNarae2011onwardsen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="HanilBlueNarae2011onwardsen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engineSize"/>
+        <NamedIndividual IRI="KowloonNo1196667en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEngine"/>
+        <NamedIndividual IRI="KowloonNo1196667en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSails"/>
+        <NamedIndividual IRI="KowloonNo1196667en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="KowloonNo1196667en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="KowloonNo1196667en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engineSize"/>
+        <NamedIndividual IRI="LosMayas1958en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEngine"/>
+        <NamedIndividual IRI="LosMayas1958en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSails"/>
+        <NamedIndividual IRI="LosMayas1958en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="LosMayas1958en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="LosMayas1958en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engineSize"/>
+        <NamedIndividual IRI="Malay195961en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEngine"/>
+        <NamedIndividual IRI="Malay195961en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSails"/>
+        <NamedIndividual IRI="Malay195961en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="Malay195961en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="Malay195961en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engineSize"/>
+        <NamedIndividual IRI="Manchesteren"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEngine"/>
+        <NamedIndividual IRI="Manchesteren"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSails"/>
+        <NamedIndividual IRI="Manchesteren"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="Manchesteren"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="Manchesteren"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engineSize"/>
+        <NamedIndividual IRI="Mimona194759en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEngine"/>
+        <NamedIndividual IRI="Mimona194759en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSails"/>
+        <NamedIndividual IRI="Mimona194759en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="Mimona194759en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="Mimona194759en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engineSize"/>
+        <NamedIndividual IRI="MountAustin195152en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEngine"/>
+        <NamedIndividual IRI="MountAustin195152en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSails"/>
+        <NamedIndividual IRI="MountAustin195152en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="MountAustin195152en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="MountAustin195152en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engineSize"/>
+        <NamedIndividual IRI="NancyMoller1951en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEngine"/>
+        <NamedIndividual IRI="NancyMoller1951en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSails"/>
+        <NamedIndividual IRI="NancyMoller1951en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="NancyMoller1951en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="NancyMoller1951en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engineSize"/>
+        <NamedIndividual IRI="PrincessOlgaen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEngine"/>
+        <NamedIndividual IRI="PrincessOlgaen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSails"/>
+        <NamedIndividual IRI="PrincessOlgaen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="PrincessOlgaen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="PrincessOlgaen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engineSize"/>
+        <NamedIndividual IRI="RMSEbroen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEngine"/>
+        <NamedIndividual IRI="RMSEbroen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSails"/>
+        <NamedIndividual IRI="RMSEbroen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="RMSEbroen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="RMSEbroen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engineSize"/>
+        <NamedIndividual IRI="Rings194858en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEngine"/>
+        <NamedIndividual IRI="Rings194858en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSails"/>
+        <NamedIndividual IRI="Rings194858en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="Rings194858en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="Rings194858en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engineSize"/>
+        <NamedIndividual IRI="SerpaPintoen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEngine"/>
+        <NamedIndividual IRI="SerpaPintoen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSails"/>
+        <NamedIndividual IRI="SerpaPintoen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="SerpaPintoen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="SerpaPintoen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engineSize"/>
+        <NamedIndividual IRI="Skuld194748en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEngine"/>
+        <NamedIndividual IRI="Skuld194748en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSails"/>
+        <NamedIndividual IRI="Skuld194748en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="Skuld194748en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="Skuld194748en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engineSize"/>
+        <NamedIndividual IRI="TroonBreeze195664en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEngine"/>
+        <NamedIndividual IRI="TroonBreeze195664en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSails"/>
+        <NamedIndividual IRI="TroonBreeze195664en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="TroonBreeze195664en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="TroonBreeze195664en"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engineSize"/>
+        <NamedIndividual IRI="XinBeijingen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEngine"/>
+        <NamedIndividual IRI="XinBeijingen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSails"/>
+        <NamedIndividual IRI="XinBeijingen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requiresCrew"/>
+        <NamedIndividual IRI="XinBeijingen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sleepingSpaces"/>
+        <NamedIndividual IRI="XinBeijingen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#berthMaxLength"/>
         <NamedIndividual IRI="#Berth_1"/>

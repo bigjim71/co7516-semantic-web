@@ -1,12 +1,12 @@
 package com.boating;
 
-import com.boating.cs.OntFactory;
-import org.apache.jena.query.QueryExecution;
-import org.apache.jena.query.QueryExecutionFactory;
-import org.apache.jena.query.QuerySolution;
-import org.apache.jena.query.ResultSet;
-import org.apache.jena.rdf.model.*;
-import org.apache.jena.util.FileManager;
+import com.boating.cs.*;
+import org.apache.jena.ontology.OntModel;
+import org.apache.jena.ontology.OntModelSpec;
+import org.apache.jena.query.*;
+import org.apache.jena.rdf.model.Literal;
+import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.Resource;
 import org.semanticweb.owlapi.apibinding.OWLManager;
 import org.semanticweb.owlapi.model.IRI;
 import org.semanticweb.owlapi.model.OWLOntology;
@@ -21,243 +21,208 @@ import java.io.File;
 
 public class OntologyDataImporter {
 
-	 OWLOntologyManager manager;
-	 OWLOntology ont;
+    OWLOntologyManager manager;
+    OWLOntology ont;
+    OntModelSpec spec;
+    OntModel model;
 
 
-	 //Change to your own ontology.
-	 public static final String ontology="boats_owl2.owl";
-	 public static final String ontology_saved="boats_owl2_saved.owl";
+    //Change to your own ontology.
+    public static final String ontology = "boats_owl2.owl";
+    public static final String ontology_saved = "boats_owl2_saved.owl";
 
-	public static final String dbpedia_url = "http://dbpedia.org/page/Boat";
-
-
-	 public OntologyDataImporter(){
-
-		 try{
-
-		  manager = OWLManager.createOWLOntologyManager();
-
-		  File ontFile=new File(ontology);
-          IRI iri = IRI.create(ontFile);
-          ont= manager.loadOntologyFromOntologyDocument(iri);
-          System.out.println("Loaded ontology: " + ont);
-
-		 }catch(Exception ex){
-			 ex.printStackTrace();
-		 }
-
-	 }
+    public static final String dbpedia_url = "http://dbpedia.org/page/Boat";
 
 
-	 /**
-	 * Part 3
-	 *
-	 * populate()
-	 *
-	 * Query RDF store(s) via their
-	 * SPARQL endpoints using Jena API. Use the data
-	 * obtained to populate your ontology
-	 * (adding instances).
-	 */
+    public OntologyDataImporter() {
 
-	public void populate(){
+        try {
 
-		 //Part 3
+            manager = OWLManager.createOWLOntologyManager();
 
-//		 //DBpedia SPARQL endpoint
-//		 String sparqlEndpoint="http://dbpedia.org/sparql";
-//		 //use your own SPARQL
-//		 String sparql = "SELECT ?s ?p ?o WHERE {?s ?p ?o} LIMIT 10";
-//		 Query query = QueryFactory.create(sparql);
-//		 QueryExecution qexec = null;
-//
-//
-//		try {
-//			qexec =  QueryExecutionFactory.sparqlService(sparqlEndpoint, query);
-//			//Complete this method....
-//			//Model resultModel = qexec.execDescribe() ;
-//			//application/sparql-results+json
-//			ResultSet results = qexec.execSelect();
-//
-//			for (; results.hasNext(); ) {
-//				QuerySolution soln = results.nextSolution();
-//				RDFNode x = soln.get("s");       // Get a result variable by name.
-//				Resource r = soln.getResource("s"); // Get a result variable - must be a resource
-//				Literal l = soln.getLiteral("s");   // Get a result variable - must be a literal
-//			}
-//		}finally{
-//			qexec.close();
-//		}
+            File ontFile = new File(ontology);
+            IRI iri = IRI.create(ontFile);
+            ont = manager.loadOntologyFromOntologyDocument(iri);
+            System.out.println("Loaded ontology: " + ont);
 
-//		String queryStr = "SELECT ?prop ?place WHERE { <http://dbpedia.org/resource/%C3%84lvdalen> ?prop ?place .}";
-//		Query query = QueryFactory.create(queryStr);
-//
-//		// Remote execution.
-//		try ( QueryExecution qexec = QueryExecutionFactory.sparqlService("http://dbpedia.org/sparql", query) ) {
-//			// Set the DBpedia specific timeout.
-//			((QueryEngineHTTP)qexec).addParam("timeout", "10000") ;
-//
-//			// Execute.
-//			ResultSet rs = qexec.execSelect();
-//			ResultSetFormatter.out(System.out, rs, query);
-//		} catch (Exception e) {
-//			e.printStackTrace();
-//		}
+            spec = new OntModelSpec(OntModelSpec.OWL_DL_MEM);
+            model = ModelFactory.createOntologyModel(spec);
 
-//		FoafExample f = new FoafExample();
-//		f.doExample();
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
 
-//		BirthPlaceExample bpe = new BirthPlaceExample();
-//		bpe.doExample();
-
-		BoatExample be = new BoatExample();
-		be.doExample();
-
-	 }
+    }
 
 
+    /**
+     * Part 3
+     * <p>
+     * populate()
+     * <p>
+     * Query RDF store(s) via their
+     * SPARQL endpoints using Jena API. Use the data
+     * obtained to populate your ontology
+     * (adding instances).
+     */
+
+    public void populate() {
+
+        String service = "http://dbpedia.org/sparql";
+        String queryString = "PREFIX dbp: <http://dbpedia.org/property/>\n" +
+                "PREFIX dbr: <http://dbpedia.org/resource/>\n" +
+                "PREFIX dbo: <http://dbpedia.org/ontology/>\n" +
+                "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
+                "PREFIX foaf: <http://xmlns.com/foaf/0.1/>\n" +
+                "\n" +
+                "select ?ship ?shipPower ?shipName ?shipOwner ?builder ?location ?crew\n" +
+                "where \n" +
+                "{\n" +
+                "?ship a dbo:MeanOfTransportation .\n" +
+                "?ship a dbo:Ship .\n" +
+                "?ship foaf:name ?shipName.\n" +
+                "?ship dbp:shipCrew ?shipCrew.\n" +
+                "?ship dbp:shipOperator ?shipOperator. \n" +
+                "?ship dbp:shipOwner ?shipOwner.\n" +
+                "?ship dbo:builder ?builder.\n" +
+                "?builder dbo:location ?location.\n" +
+                "?ship dbp:shipPower ?shipPower.\n" +
+                "?ship dbp:shipCrew ?crew\n" +
+                "}\n" +
+                "LIMIT 5000";
+
+        System.out.println(queryString);
+
+        QueryExecution qe = QueryExecutionFactory.sparqlService(service, queryString);
+        //Model resultModel = qe.execDescribe() ;
+        ResultSet rs = qe.execSelect();
+        while (rs.hasNext()) {
+            QuerySolution s = rs.nextSolution();
+            Resource ship = s.getResource("?ship");
+            Literal name = s.getLiteral("?shipName");
+            Literal owner = s.getLiteral("?shipOwner");
+            Literal power = s.getLiteral("?shipPower");
+            Literal crew = s.getLiteral("?crew");
+            Resource location = s.getResource("?location");
+            Resource builder = s.getResource("?builder");
+
+//			System.out.println("owner: "+owner.toString());
+//			System.out.println("name: "+name.toString());
+//			System.out.println("power: "+power.toString());
+//			System.out.println("location: "+location.getLocalName().toString());
+//			System.out.println("builder: "+builder.getLocalName().toString());
+
+            /**
+             * It's not been possible to retrieve data which fits correctly with the competency questions from Assignment 1.
+             * There isn't seemingly a good source of data for *leisure* boats.
+             * Whereas there is quite alot of data for commercial *ships*.
+             * Consequently, I've "massaged" the commercial data for ships as retrieved, to create instances of leisure
+             * boat types which are required for the competency questions.
+             */
+
+            OntFactory ontFactory = new OntFactory(ont);
+
+            BoatRentalProvider boatRentalProvider = ontFactory.createBoatRentalProvider(owner.toString().replaceAll("[^A-Za-z0-9]", ""));
+            Haven homeHaven = ontFactory.createHaven(location.getLocalName().toString().replaceAll("[^A-Za-z0-9]", ""));
+            boatRentalProvider.addRentalProviderHomeHaven(homeHaven);
+
+            //split across different boat types ie. for one Ship retrieved, create 2 leisure boat instances, albeit with the same name (different type).
+            CabinCruiser cabinCruiser = ontFactory.createCabinCruiser(name.toString().replaceAll("[^A-Za-z0-9]", ""));
+            cabinCruiser.addHasEngine(true);
+            cabinCruiser.addRequiresCrew(this.getIntegerValue(crew.toString().replaceAll("[^A-Za-z0-9]", "")));
+            cabinCruiser.addSleepingSpaces(10);
+
+            Cutter cutter = ontFactory.createCutter(name.toString().replaceAll("[^A-Za-z0-9]", ""));
+            cutter.addHasSails(true);
+            cutter.addRequiresCrew(this.getIntegerValue(crew.toString().replaceAll("[^A-Za-z0-9]", "")));
+            cutter.addSleepingSpaces(10);
+
+            Engine engine = ontFactory.createEngine(power.toString().replaceAll("[^A-Za-z0-9]", ""));
+
+            //add engine to boats
+            ontFactory.as(cabinCruiser, Boat.class).addEngineSize(getIntegerValue(power.toString().replaceAll("[^A-Za-z0-9]", "")));
+            ontFactory.as(cutter, Boat.class).addEngineSize(getIntegerValue(power.toString().replaceAll("[^A-Za-z0-9]", "")));
 
 
-	 /**
-	  *
-	  *  Question 3
-	  *
-	  *  createRelationships()
-	  *
-	  *  Set Datatype/Object Property values
-	  *
-	  *
-	  */
-	public void createRelationships(){
+            //set contact details on boatrentalprovider
+            Contact contact = ontFactory.createContact(builder.getLocalName().toString().replaceAll("[^A-Za-z0-9]", ""));
 
-		 try{
+            boatRentalProvider.addBelongsTo((Boat) cabinCruiser);
+            boatRentalProvider.addBelongsTo((Boat) cutter);
+            boatRentalProvider.addContact(contact);
 
-          OntFactory factory=new OntFactory (ont);
+            String ql = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n" +
+                    "PREFIX owl: <http://www.w3.org/2002/07/owl#>\n" +
+                    "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
+                    "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n" +
+                    "PREFIX boat: <http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#>\n" +
+                    "SELECT * " +
+                    "WHERE" +
+                    "{ ?s ?p ?o" +
+                    //"?brp :boatRentalProviders ?boat ." +
+                    "}" ;
+            Query query = QueryFactory.create(ql);
+            QueryExecution ex = QueryExecutionFactory.create(ql, model);
+            ResultSet rs1 = qe.execSelect();
+            while (rs1.hasNext()) {
+                QuerySolution s1 = rs.nextSolution();
+                Resource brp = s1.getResource("?s");
+                System.out.println(brp.toString());
 
-		 //complete this method ...
+            }
 
+        }
 
-		 }catch(Exception ex){
-			 ex.printStackTrace();
-		 }
-
-	 }
-
-
-	 public void save(){
-
-			try{
-
-			File file=new File(ontology_saved);
-			 manager.saveOntology(ont, IRI.create(file.toURI()));
-			 System.out.println("Saved ontology: " + ont);
-
-			}catch(Exception ex){
-				ex.printStackTrace();
-			}
-
-		}
+    }
 
 
-	 public static void main(String[] args){
+    /**
+     * Question 3
+     * <p>
+     * createRelationships()
+     * <p>
+     * Set Datatype/Object Property values
+     */
+    public void createRelationships() {
 
-		 OntologyDataImporter app=new OntologyDataImporter();
-		 app.populate();
-		 app.createRelationships();
-		 app.save();
+        //see relationships created above.
 
-	 }
 
-	 private static class FoafExample{
+    }
 
-	 	public void doExample(){
 
-			FileManager.get().addLocatorClassLoader(OntologyDataImporter.FoafExample.class.getClassLoader());
-			Model model = FileManager.get().loadModel("data.ttl", null, "TURTLE");
+    public void save() {
 
-			StmtIterator iter = model.listStatements();
-			try {
-				while ( iter.hasNext() ) {
-					Statement stmt = iter.next();
+        try {
 
-					Resource s = stmt.getSubject();
-					Resource p = stmt.getPredicate();
-					RDFNode o = stmt.getObject();
+            File file = new File(ontology_saved);
+            manager.saveOntology(ont, IRI.create(file.toURI()));
+            System.out.println("Saved ontology: " + ont);
 
-					if ( s.isURIResource() ) {
-						System.out.print("URI");
-					} else if ( s.isAnon() ) {
-						System.out.print("blank");
-					}
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
 
-					if ( p.isURIResource() )
-						System.out.print(" URI ");
+    }
 
-					if ( o.isURIResource() ) {
-						System.out.print("URI");
-					} else if ( o.isAnon() ) {
-						System.out.print("blank");
-					} else if ( o.isLiteral() ) {
-						System.out.print("literal");
-					}
 
-					System.out.println();
-				}
-			} finally {
-				if ( iter != null ) iter.close();
-			}
-		}
-	 }
+    public static void main(String[] args) {
 
-	 private static class BirthPlaceExample{
+        OntologyDataImporter app = new OntologyDataImporter();
+        app.populate();
+        app.createRelationships();
+        app.save();
 
-	 	public void doExample(){
+    }
 
-			String service="http://dbpedia.org/sparql";
-			String query="PREFIX dbo:<http://dbpedia.org/ontology/>"
-					+ "PREFIX : <http://dbpedia.org/resource/>"
-					+ "PREFIX foaf:<http://xmlns.com/foaf/0.1/>"
-					+ "select ?person ?name where {?person dbo:birthPlace :Eindhoven."
-					+ "?person foaf:name ?name}";
-			QueryExecution qe= QueryExecutionFactory.sparqlService(service, query);
-			ResultSet rs=qe.execSelect();
-			while (rs.hasNext()){
-				QuerySolution s=rs.nextSolution();
-				Resource r=s.getResource("?person");
-				Literal name=s.getLiteral("?name");
-				System.out.println(s.getResource("?person").toString());
-				System.out.println(s.getLiteral("?name").getString());
-			}
-				//03/28/11
-		}
-	 }
+    private Integer getIntegerValue(String intValue) {
 
-	 private static class BoatExample{
+        try {
+            return Integer.valueOf(intValue);
+        } catch (Exception e) {
+            return new Integer(1);
+        }
+    }
 
-	 	//http://brunodias.space/2016/06/29/scraping-for-fun-and-corpora/index.html
-		 //http://mappings.dbpedia.org/index.php/OntologyClass:Ship
-		 //http://dbpedia.org/ontology/Ship
-
-		 public void doExample() {
-
-			 String service = "http://dbpedia.org/sparql";
-			 String query = "PREFIX dbo:<http://dbpedia.org/ontology/>"
-					// + PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-					 + "PREFIX : <http://dbpedia.org/resource/>"
-					 + "PREFIX foaf:<http://xmlns.com/foaf/0.1/>"
-					 + "select ?ship where {?ship rdf:type dbo:Ship }";
-			 QueryExecution qe= QueryExecutionFactory.sparqlService(service, query);
-			 ResultSet rs=qe.execSelect();
-			 while (rs.hasNext()){
-				 QuerySolution s=rs.nextSolution();
-				 Resource r=s.getResource("?ship");
-				 //Literal name=s.getLiteral("?name");
-				 System.out.println(s.getResource("?person").toString());
-				 System.out.println(s.getLiteral("?name").getString());
-			 }
-			 //03/28/11
-		 }
-	 }
 
 }

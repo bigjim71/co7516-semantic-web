@@ -1,9 +1,6 @@
 package com.boating.cs;
 
-import java.util.Collection;
-
 import org.protege.owl.codegeneration.WrappedIndividual;
-
 import org.semanticweb.owlapi.model.OWLNamedIndividual;
 import org.semanticweb.owlapi.model.OWLOntology;
 

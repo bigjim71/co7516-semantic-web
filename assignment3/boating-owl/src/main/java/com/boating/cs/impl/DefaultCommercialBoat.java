@@ -1,16 +1,9 @@
 package com.boating.cs.impl;
 
-import com.boating.cs.*;
-
-import java.util.Collection;
-
-import org.protege.owl.codegeneration.WrappedIndividual;
+import com.boating.cs.CommercialBoat;
 import org.protege.owl.codegeneration.impl.WrappedIndividualImpl;
-
 import org.protege.owl.codegeneration.inference.CodeGenerationInference;
-
 import org.semanticweb.owlapi.model.IRI;
-import org.semanticweb.owlapi.model.OWLOntology;
 
 
 /**

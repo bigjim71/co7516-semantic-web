@@ -26,9 +26,24 @@ public class BoatsService {
     }
 
     @POST
+    @Path("competency1")
     @Produces(MediaType.TEXT_PLAIN)
-    public String update(){
-        return "update";
+    public String competency1(@FormParam("search_terms") String searchTerms){
+        return "update1: searchTerms: "+searchTerms;
+    }
+
+    @POST
+    @Path("competency2")
+    @Produces(MediaType.TEXT_PLAIN)
+    public String competency2(@FormParam("search_terms") String searchTerms){
+        return "update1: searchTerms: "+searchTerms;
+    }
+
+    @POST
+    @Path("competency3")
+    @Produces(MediaType.TEXT_PLAIN)
+    public String competency3(@FormParam("search_terms") String searchTerms){
+        return "update1: searchTerms: "+searchTerms;
     }
 
     @DELETE

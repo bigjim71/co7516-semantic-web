@@ -6,12 +6,43 @@
 </head>
 <body>
 
-<form action="/myapp/boats" method="post">
+<p>
+    Competency1:
+    If I wanted to hire a cabin cruiser which sleeps 3 people, where could I hire one from?
 
-    <input type="text" name="search_terms"/>
+    <form action="/myapp/boats/competency1" method="post">
 
-    <input type="submit"/>
-</form>
+        <input type="text" name="search_terms" value="hire cabin cruiser sleeps 3"/>
+
+        <input type="submit"/>
+    </form>
+</p>
+
+<p>
+    Competency2:
+    If I've hired a Cutter for a vacation, which harbours could I stop at overnight?
+
+    <form action="/myapp/boats/competency2" method="post">
+
+        <input type="text" name="search_terms" value="hire cutter which harbours/ports"/>
+
+        <input type="submit"/>
+    </form>
+</p>
+
+<p>
+    Competency3:
+    If I've planned a route from Poole to Swanage, which boats are available to me which
+    don't require crew other than myself ?
+
+    <form action="/myapp/boats/competency3" method="post">
+
+        <input type="text" name="search_terms" value="boats Poole crew less than 2"/>
+
+        <input type="submit"/>
+    </form>
+</p>
+
 
 </body>
 </html>
