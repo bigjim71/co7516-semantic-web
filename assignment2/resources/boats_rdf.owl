@@ -1,0 +1,804 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#"
+     xml:base="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf"
+     xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#acceptsBoatType -->
+
+    <owl:ObjectProperty rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#acceptsBoatType">
+        <rdfs:domain rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Haven"/>
+        <rdfs:range rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#CommercialType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#allowedBoatType -->
+
+    <owl:ObjectProperty rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#allowedBoatType">
+        <rdfs:domain rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Route"/>
+        <rdfs:range rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#CommercialType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#boatType -->
+
+    <owl:ObjectProperty rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#boatType">
+        <rdfs:domain rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Boat"/>
+        <rdfs:range rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#CommercialType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#havenBerths -->
+
+    <owl:ObjectProperty rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#havenBerths">
+        <rdfs:domain rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Haven"/>
+        <rdfs:range rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#rentalProviderBoats -->
+
+    <owl:ObjectProperty rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#rentalProviderBoats">
+        <rdfs:domain rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#BoatRentalProvider"/>
+        <rdfs:range rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Boat"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#rentalProviderHomeHaven -->
+
+    <owl:ObjectProperty rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#rentalProviderHomeHaven">
+        <rdfs:domain rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#BoatRentalProvider"/>
+        <rdfs:range rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Haven"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#routeHavens -->
+
+    <owl:ObjectProperty rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#routeHavens">
+        <rdfs:domain rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Route"/>
+        <rdfs:range rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Haven"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#berthCapacity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#berthCapacity">
+        <rdfs:domain rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Haven"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#berthMaxLength -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#berthMaxLength">
+        <rdfs:domain rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#berthName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#berthName">
+        <rdfs:domain rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#berthsAvailable -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#berthsAvailable">
+        <rdfs:domain rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Haven"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#boatLength -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#boatLength">
+        <rdfs:domain rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Boat"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#boatName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#boatName">
+        <rdfs:domain rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Boat"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#color -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#color">
+        <rdfs:domain rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Boat"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{&quot;Red&quot;, &quot;Blue&quot;, &quot;Green&quot;}</rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#engineSize -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#engineSize">
+        <rdfs:domain rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Boat"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#havenName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#havenName">
+        <rdfs:domain rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Haven"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#providerName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#providerName">
+        <rdfs:domain rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#BoatRentalProvider"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#requiresCrew -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#requiresCrew">
+        <rdfs:domain rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Boat"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#routeName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#routeName">
+        <rdfs:domain rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Route"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#sleepingSpaces -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#sleepingSpaces">
+        <rdfs:domain rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Boat"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Address -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Address">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Contact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#DomainConcept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Boat -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Boat">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#DomainConcept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#BoatRentalProvider -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#BoatRentalProvider">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#DomainConcept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#CabinCruiser -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#CabinCruiser">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#MotorBoat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Commercial -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Commercial">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#CommercialType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#CommercialType -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#CommercialType">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#ValuePartition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Contact -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Contact">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Boat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Cutter -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Cutter">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Yacht"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Dinghy -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Dinghy">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#SailingBoat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#DomainConcept -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#DomainConcept"/>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Dragon -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Dragon">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Yacht"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Email -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Email">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Contact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Ferry -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Ferry">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#MotorBoat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Harbour -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Harbour">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Haven"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Haven -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Haven">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#DomainConcept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Hobie-Tiger -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Hobie-Tiger">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Multihull"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Hobie-Wildcat -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Hobie-Wildcat">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Multihull"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Laser -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Laser">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Dinghy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Mirror -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Mirror">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Dinghy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#MotorBoat -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#MotorBoat">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Boat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Multihull -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Multihull">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#SailingBoat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#NonCommercial -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#NonCommercial">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#CommercialType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Optimist -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Optimist">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Dinghy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Port -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Port">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Haven"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Route -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Route">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#DomainConcept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#SailingBoat -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#SailingBoat">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Boat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Sloop -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Sloop">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Yacht"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Telephone -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Telephone">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Contact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Topcat -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Topcat">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Multihull"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Tornado -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Tornado">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Multihull"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Trawler -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Trawler">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#MotorBoat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Tug -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Tug">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#MotorBoat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#ValuePartition -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#ValuePartition"/>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Yacht -->
+
+    <owl:Class rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Yacht">
+        <rdfs:subClassOf rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#SailingBoat"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth_1">
+        <rdf:type rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth"/>
+        <berthMaxLength rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</berthMaxLength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth_24 -->
+
+    <owl:NamedIndividual rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth_24">
+        <rdf:type rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth"/>
+        <berthMaxLength rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</berthMaxLength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth_25 -->
+
+    <owl:NamedIndividual rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth_25">
+        <rdf:type rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth"/>
+        <berthMaxLength rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</berthMaxLength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth_30 -->
+
+    <owl:NamedIndividual rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth_30">
+        <rdf:type rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth"/>
+        <berthMaxLength rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</berthMaxLength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth_31 -->
+
+    <owl:NamedIndividual rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth_31">
+        <rdf:type rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth"/>
+        <berthMaxLength rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</berthMaxLength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth_32 -->
+
+    <owl:NamedIndividual rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth_32">
+        <rdf:type rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth"/>
+        <berthMaxLength rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25</berthMaxLength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#BoatRentalProvider_Poole -->
+
+    <owl:NamedIndividual rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#BoatRentalProvider_Poole">
+        <rdf:type rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#BoatRentalProvider"/>
+        <rentalProviderBoats rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Laser_34"/>
+        <rentalProviderBoats rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Topcat_35"/>
+        <rentalProviderHomeHaven rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Poole-Harbour"/>
+        <providerName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pooleBoatProvider</providerName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#BoatRentalsPortsmouth -->
+
+    <owl:NamedIndividual rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#BoatRentalsPortsmouth">
+        <rdf:type rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#BoatRentalProvider"/>
+        <rentalProviderBoats rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#CabinCruiser_20"/>
+        <rentalProviderBoats rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Ferry_26"/>
+        <rentalProviderHomeHaven rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Port_Portsmouth"/>
+        <providerName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portsmouthBoatProvider</providerName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#CabinCruiser_18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#CabinCruiser_18">
+        <rdf:type rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#CabinCruiser"/>
+        <boatType rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Commercial_22"/>
+        <boatLength rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</boatLength>
+        <boatName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CabinCruiser18</boatName>
+        <requiresCrew rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</requiresCrew>
+        <sleepingSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</sleepingSpaces>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#CabinCruiser_20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#CabinCruiser_20">
+        <rdf:type rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#CabinCruiser"/>
+        <boatLength rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</boatLength>
+        <boatName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cabinCruiser20</boatName>
+        <requiresCrew rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</requiresCrew>
+        <sleepingSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</sleepingSpaces>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Commercial_22 -->
+
+    <owl:NamedIndividual rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Commercial_22">
+        <rdf:type rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Commercial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Cowes-Harbour -->
+
+    <owl:NamedIndividual rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Cowes-Harbour">
+        <rdf:type rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Harbour"/>
+        <acceptsBoatType rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#NonCommercial_29"/>
+        <havenBerths rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#CowesBerth1"/>
+        <havenBerths rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#CowesBerth2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#CowesBerth1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#CowesBerth1">
+        <rdf:type rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth"/>
+        <berthMaxLength rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</berthMaxLength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#CowesBerth2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#CowesBerth2">
+        <rdf:type rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth"/>
+        <berthMaxLength rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</berthMaxLength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Cutter_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Cutter_1">
+        <rdf:type rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Cutter"/>
+        <boatType rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#NonCommercial_29"/>
+        <boatLength rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</boatLength>
+        <requiresCrew rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</requiresCrew>
+        <sleepingSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</sleepingSpaces>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Ferry_26 -->
+
+    <owl:NamedIndividual rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Ferry_26">
+        <rdf:type rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Ferry"/>
+        <boatType rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Commercial_22"/>
+        <boatLength rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</boatLength>
+        <requiresCrew rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</requiresCrew>
+        <sleepingSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</sleepingSpaces>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Laser_34 -->
+
+    <owl:NamedIndividual rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Laser_34">
+        <rdf:type rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Laser"/>
+        <boatType rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#NonCommercial_29"/>
+        <boatLength rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</boatLength>
+        <requiresCrew rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</requiresCrew>
+        <sleepingSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</sleepingSpaces>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#NonCommercial_29 -->
+
+    <owl:NamedIndividual rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#NonCommercial_29">
+        <rdf:type rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#NonCommercial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Poole-Harbour -->
+
+    <owl:NamedIndividual rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Poole-Harbour">
+        <rdf:type rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Harbour"/>
+        <acceptsBoatType rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#NonCommercial_29"/>
+        <havenBerths rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth_30"/>
+        <havenBerths rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth_31"/>
+        <havenBerths rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth_32"/>
+        <havenName>Poole-Harbour</havenName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Port_Portsmouth -->
+
+    <owl:NamedIndividual rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Port_Portsmouth">
+        <rdf:type rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Port"/>
+        <acceptsBoatType rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Commercial_22"/>
+        <havenBerths rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth_1"/>
+        <havenBerths rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth_24"/>
+        <havenBerths rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth_25"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Route_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Route_1">
+        <rdf:type rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Route"/>
+        <allowedBoatType rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#NonCommercial_29"/>
+        <routeHavens rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Poole-Harbour"/>
+        <routeHavens rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Swanage-Harbour"/>
+        <routeName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">route1</routeName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Route_48 -->
+
+    <owl:NamedIndividual rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Route_48">
+        <rdf:type rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Route"/>
+        <allowedBoatType rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#NonCommercial_29"/>
+        <routeHavens rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Cowes-Harbour"/>
+        <routeHavens rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Poole-Harbour"/>
+        <routeName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">route2</routeName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Swanage-Harbour -->
+
+    <owl:NamedIndividual rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Swanage-Harbour">
+        <rdf:type rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Harbour"/>
+        <acceptsBoatType rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#NonCommercial_29"/>
+        <havenBerths rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#SwanageBerth1"/>
+        <havenBerths rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#SwanageBerth2"/>
+        <havenName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SwanageHarbour</havenName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#SwanageBerth1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#SwanageBerth1">
+        <rdf:type rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth"/>
+        <berthMaxLength rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</berthMaxLength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#SwanageBerth2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#SwanageBerth2">
+        <rdf:type rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Berth"/>
+        <berthMaxLength rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</berthMaxLength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Topcat_35 -->
+
+    <owl:NamedIndividual rdf:about="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Topcat_35">
+        <rdf:type rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#Topcat"/>
+        <boatType rdf:resource="http://www.co7516coursework1.com/jl571/OntologyJl571.rdf#NonCommercial_29"/>
+        <boatLength rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</boatLength>
+        <requiresCrew rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</requiresCrew>
+        <sleepingSpaces rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</sleepingSpaces>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

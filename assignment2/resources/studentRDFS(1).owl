@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:uol="http://www.cs.le.ac.uk/rdf#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+    xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://www.cs.le.ac.uk/rdfs">
+  <owl:Ontology rdf:about=""/>
+  <rdfs:Class rdf:about="http://www.cs.le.ac.uk/rdf#Student">
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="http://www.cs.le.ac.uk/rdf#Person"/>
+    </rdfs:subClassOf>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.cs.le.ac.uk/rdf#Lecturer">
+    <rdfs:subClassOf rdf:resource="http://www.cs.le.ac.uk/rdf#Person"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.cs.le.ac.uk/rdf#Module"/>
+  <rdf:Property rdf:about="http://www.cs.le.ac.uk/rdf#has_age">
+    <rdfs:domain rdf:resource="http://www.cs.le.ac.uk/rdf#Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.cs.le.ac.uk/rdf#teach">
+    <rdfs:domain rdf:resource="http://www.cs.le.ac.uk/rdf#Lecturer"/>
+    <rdfs:range rdf:resource="http://www.cs.le.ac.uk/rdf#Module"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.cs.le.ac.uk/rdf#study">
+    <rdfs:range rdf:resource="http://www.cs.le.ac.uk/rdf#Module"/>
+    <rdfs:domain rdf:resource="http://www.cs.le.ac.uk/rdf#Student"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.cs.le.ac.uk/rdf#has_full_name">
+    <rdfs:domain rdf:resource="http://www.cs.le.ac.uk/rdf#Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.cs.le.ac.uk/rdf#has_email">
+    <rdfs:domain rdf:resource="http://www.cs.le.ac.uk/rdf#Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Property>
+  <uol:Student rdf:about="http://www.cs.le.ac.uk/rdf#s3">
+    <uol:has_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >28</uol:has_age>
+    <uol:has_full_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >s3</uol:has_full_name>
+    <uol:study>
+      <uol:Module rdf:about="http://www.cs.le.ac.uk/rdf#CO7216"/>
+    </uol:study>
+    <uol:study>
+      <uol:Module rdf:about="http://www.cs.le.ac.uk/rdf#CO7215"/>
+    </uol:study>
+    <uol:has_email rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >s3@student.le.ac.uk</uol:has_email>
+  </uol:Student>
+  <uol:Lecturer rdf:about="http://www.cs.le.ac.uk/rdf#L1">
+    <uol:has_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >40</uol:has_age>
+    <uol:has_email rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >l1@le.ac.uk</uol:has_email>
+    <uol:teach rdf:resource="http://www.cs.le.ac.uk/rdf#CO7215"/>
+    <uol:teach>
+      <uol:Module rdf:about="http://www.cs.le.ac.uk/rdf#CO1003"/>
+    </uol:teach>
+    <uol:has_full_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >L1</uol:has_full_name>
+  </uol:Lecturer>
+  <uol:Lecturer rdf:about="http://www.cs.le.ac.uk/rdf#L2">
+    <uol:teach rdf:resource="http://www.cs.le.ac.uk/rdf#CO7216"/>
+    <uol:has_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >33</uol:has_age>
+    <uol:has_email rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >l2@le.ac.uk</uol:has_email>
+    <uol:has_full_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >L2</uol:has_full_name>
+  </uol:Lecturer>
+  <uol:Student rdf:about="http://www.cs.le.ac.uk/rdf#s2">
+    <uol:has_full_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >s2</uol:has_full_name>
+    <uol:study rdf:resource="http://www.cs.le.ac.uk/rdf#CO1003"/>
+    <uol:has_email rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >s2@student.le.ac.uk</uol:has_email>
+    <uol:has_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >22</uol:has_age>
+  </uol:Student>
+  <uol:Student rdf:about="http://www.cs.le.ac.uk/rdf#s1">
+    <uol:has_email rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >s1@student.le.ac.uk</uol:has_email>
+    <uol:study rdf:resource="http://www.cs.le.ac.uk/rdf#CO7216"/>
+    <uol:has_full_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >s1</uol:has_full_name>
+    <uol:has_age rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >28</uol:has_age>
+  </uol:Student>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.5, Build 663)  http://protege.stanford.edu -->

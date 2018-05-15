@@ -1,0 +1,520 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY swrl "http://www.w3.org/2003/11/swrl#" >
+    <!ENTITY swrlb "http://www.w3.org/2003/11/swrlb#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY Ontology1456264971774 "http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#"
+     xml:base="http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Ontology1456264971774="http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#eat -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1456264971774;eat">
+        <rdfs:range rdf:resource="&Ontology1456264971774;Food"/>
+        <rdfs:domain rdf:resource="&Ontology1456264971774;LivingThing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#eatenBy -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1456264971774;eatenBy">
+        <owl:inverseOf rdf:resource="&Ontology1456264971774;eat"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#hasChild -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1456264971774;hasChild">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="&Ontology1456264971774;LivingThing"/>
+        <rdfs:range rdf:resource="&Ontology1456264971774;LivingThing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#hasFriend -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1456264971774;hasFriend">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:domain rdf:resource="&Ontology1456264971774;Person"/>
+        <rdfs:range rdf:resource="&Ontology1456264971774;Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#hasMother -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1456264971774;hasMother">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#isOlderThan -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1456264971774;isOlderThan">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:domain rdf:resource="&Ontology1456264971774;LivingThing"/>
+        <rdfs:range rdf:resource="&Ontology1456264971774;LivingThing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#hasAge -->
+
+    <owl:DatatypeProperty rdf:about="&Ontology1456264971774;hasAge">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="&Ontology1456264971774;Person"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#hasStudentID -->
+
+    <owl:DatatypeProperty rdf:about="&Ontology1456264971774;hasStudentID">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="&Ontology1456264971774;Student"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#BeefEater -->
+
+    <owl:Class rdf:about="&Ontology1456264971774;BeefEater">
+        <rdfs:subClassOf rdf:resource="&Ontology1456264971774;Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#Cat -->
+
+    <owl:Class rdf:about="&Ontology1456264971774;Cat">
+        <rdfs:subClassOf rdf:resource="&Ontology1456264971774;LivingThing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&Ontology1456264971774;eat"/>
+                <owl:someValuesFrom rdf:resource="&Ontology1456264971774;Meat"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#Cow -->
+
+    <owl:Class rdf:about="&Ontology1456264971774;Cow">
+        <rdfs:subClassOf rdf:resource="&Ontology1456264971774;LivingThing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&Ontology1456264971774;eat"/>
+                <owl:allValuesFrom rdf:resource="&Ontology1456264971774;Vegetable"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#Food -->
+
+    <owl:Class rdf:about="&Ontology1456264971774;Food"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#LivingThing -->
+
+    <owl:Class rdf:about="&Ontology1456264971774;LivingThing"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#Man -->
+
+    <owl:Class rdf:about="&Ontology1456264971774;Man">
+        <rdfs:subClassOf rdf:resource="&Ontology1456264971774;Person"/>
+        <owl:disjointWith rdf:resource="&Ontology1456264971774;Woman"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#Meat -->
+
+    <owl:Class rdf:about="&Ontology1456264971774;Meat">
+        <rdfs:subClassOf rdf:resource="&Ontology1456264971774;Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#Mother -->
+
+    <owl:Class rdf:about="&Ontology1456264971774;Mother">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&Ontology1456264971774;hasChild"/>
+                <owl:someValuesFrom rdf:resource="&Ontology1456264971774;Person"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&Ontology1456264971774;Woman"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#NonVegetarian -->
+
+    <owl:Class rdf:about="&Ontology1456264971774;NonVegetarian">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Ontology1456264971774;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1456264971774;eat"/>
+                        <owl:someValuesFrom rdf:resource="&Ontology1456264971774;Meat"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&Ontology1456264971774;Person"/>
+        <owl:disjointWith rdf:resource="&Ontology1456264971774;Vegetarian"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#Person -->
+
+    <owl:Class rdf:about="&Ontology1456264971774;Person">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Ontology1456264971774;NonVegetarian"/>
+                    <rdf:Description rdf:about="&Ontology1456264971774;Vegetarian"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&Ontology1456264971774;LivingThing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&Ontology1456264971774;hasFriend"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">0</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&Ontology1456264971774;hasAge"/>
+                <owl:maxCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#PopularPerson -->
+
+    <owl:Class rdf:about="&Ontology1456264971774;PopularPerson">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&Ontology1456264971774;hasFriend"/>
+                <owl:onClass rdf:resource="&Ontology1456264971774;Person"/>
+                <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">2</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&Ontology1456264971774;Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#Student -->
+
+    <owl:Class rdf:about="&Ontology1456264971774;Student">
+        <rdfs:subClassOf rdf:resource="&Ontology1456264971774;Person"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&Ontology1456264971774;hasStudentID"/>
+                <owl:cardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#Vegetable -->
+
+    <owl:Class rdf:about="&Ontology1456264971774;Vegetable">
+        <rdfs:subClassOf rdf:resource="&Ontology1456264971774;Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#Vegetarian -->
+
+    <owl:Class rdf:about="&Ontology1456264971774;Vegetarian">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Ontology1456264971774;Person"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Ontology1456264971774;eat"/>
+                        <owl:allValuesFrom rdf:resource="&Ontology1456264971774;Vegetable"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&Ontology1456264971774;Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#Woman -->
+
+    <owl:Class rdf:about="&Ontology1456264971774;Woman">
+        <rdfs:subClassOf rdf:resource="&Ontology1456264971774;Person"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#Beef -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1456264971774;Beef">
+        <rdf:type rdf:resource="&Ontology1456264971774;Meat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#Carrot -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1456264971774;Carrot">
+        <rdf:type rdf:resource="&Ontology1456264971774;Vegetable"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#Chicken -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1456264971774;Chicken">
+        <rdf:type rdf:resource="&Ontology1456264971774;Meat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#Fish -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1456264971774;Fish">
+        <rdf:type rdf:resource="&Ontology1456264971774;Meat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#Pork -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1456264971774;Pork">
+        <rdf:type rdf:resource="&Ontology1456264971774;Meat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#Potato -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1456264971774;Potato">
+        <rdf:type rdf:resource="&Ontology1456264971774;Vegetable"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#Rice -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1456264971774;Rice">
+        <rdf:type rdf:resource="&Ontology1456264971774;Vegetable"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#p1 -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1456264971774;p1">
+        <rdf:type rdf:resource="&Ontology1456264971774;Person"/>
+        <hasAge rdf:datatype="&xsd;int">10</hasAge>
+        <hasStudentID rdf:datatype="&xsd;int">123</hasStudentID>
+        <hasFriend rdf:resource="&Ontology1456264971774;p2"/>
+        <hasFriend rdf:resource="&Ontology1456264971774;p3"/>
+        <hasChild rdf:resource="&Ontology1456264971774;p3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#p2 -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1456264971774;p2">
+        <rdf:type rdf:resource="&Ontology1456264971774;Person"/>
+        <eat rdf:resource="&Ontology1456264971774;Beef"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2016/1/Ontology1456264971774.owl#p3 -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1456264971774;p3">
+        <rdf:type rdf:resource="&Ontology1456264971774;Person"/>
+        <eat rdf:resource="&Ontology1456264971774;Potato"/>
+        <hasMother rdf:resource="&Ontology1456264971774;p1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&Ontology1456264971774;p1"/>
+            <rdf:Description rdf:about="&Ontology1456264971774;p3"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&Ontology1456264971774;p2"/>
+            <rdf:Description rdf:about="&Ontology1456264971774;p3"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&Ontology1456264971774;p1"/>
+            <rdf:Description rdf:about="&Ontology1456264971774;p2"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="urn:swrl#x">
+        <rdf:type rdf:resource="&swrl;Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="&Ontology1456264971774;BeefEater"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="&Ontology1456264971774;Person"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest rdf:resource="&rdf;nil"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                <swrl:argument2 rdf:resource="&Ontology1456264971774;Beef"/>
+                                <swrl:propertyPredicate rdf:resource="&Ontology1456264971774;eat"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
